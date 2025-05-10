@@ -1,0 +1,24 @@
+{
+  "name": "pgats-programacao-para-automacao-de-testes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RicardoOliveira89/pgats-programacao-para-automacao-de-testes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RicardoOliveira89/pgats-programacao-para-automacao-de-testes/issues"
+  },
+  "homepage": "https://github.com/RicardoOliveira89/pgats-programacao-para-automacao-de-testes#readme",
+  "description": "",
+  "devDependencies": {
+    "mocha": "^11.2.2"
+  }
+}
