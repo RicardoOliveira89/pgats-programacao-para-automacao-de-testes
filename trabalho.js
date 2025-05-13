@@ -1,5 +1,6 @@
-function geradorDeTagsDeIdentificacao () {
 
+function geradorDeTagsDeIdentificacao (nome) {
+  return nome.toUpperCase()
 }
 
 function verificarSePodeSerAdotado() {
