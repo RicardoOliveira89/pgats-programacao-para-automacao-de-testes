@@ -12,10 +12,10 @@ function verificarSePodeSerAdotado(numero, porte) {
 }
 
 function calcularConsumoDeRacao(nomeDog, quantidadeDias, peso) {
-  const quantidadePorKilo = 4350 / peso //Regra de 3 pra descobrir a quantidade de gramas para 1 kg
-  let quantidadeDiaria = quantidadePorKilo * peso
+  const quantidadePorKilo = 4350 / 14.5 //Regra de 3 pra descobrir a quantidade de gramas para 1 kg | Valor constante para não variar conforme o peso recebido nos parâmetros
+  let quantidadeRacaoPorDia = (quantidadePorKilo * peso) * quantidadeDias
 
-  return quantidadeDiaria
+  return quantidadeRacaoPorDia
 }
 
 function decidirTipoDeAtividadePorPorte(porte) {     
