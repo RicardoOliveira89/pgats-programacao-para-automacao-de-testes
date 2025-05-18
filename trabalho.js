@@ -21,31 +21,29 @@ function calcularConsumoDeRacao(nomeDog, quantidadeDias, peso) {
 function decidirTipoDeAtividadePorPorte(porte) {     
   switch (porte) {
     case 'pequeno': 
-       return 'brincar dentro de casa'
-       break;
-      
+      return 'brincar dentro de casa'
+      break;
     case 'médio': 
-       return 'brincar trancado no muro'
-       break;
-      
+      return 'brincar trancado no muro'
+      break;
     case 'grande': 
       return 'passear na praça com o dono'
       break;
-
     default: 
       return 'O dono decidirá a brincadeira para este tipo de porte'
       break;
     }
 }
 
-function buscarDadoAsync() {
-    
+async function buscarDadoAsync() {
+  let exemploNome = 'Pipoca'
+  return exemploNome
 }
 
 export {
-    geradorDeTagsDeIdentificacao,
-    verificarSePodeSerAdotado,
-    calcularConsumoDeRacao,
-    decidirTipoDeAtividadePorPorte,
-    buscarDadoAsync
-  }
+  geradorDeTagsDeIdentificacao,
+  verificarSePodeSerAdotado,
+  calcularConsumoDeRacao,
+  decidirTipoDeAtividadePorPorte,
+  buscarDadoAsync
+}
