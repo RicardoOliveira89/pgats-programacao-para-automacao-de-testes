@@ -28,7 +28,7 @@ describe('Testes da disciplina - fundamentos JS', () => {
 
   it('QUANDO buscar dado de exemplo, DEVE retornar um valor de forma assíncrona', async () => {
     const resultado = await buscarDadoAsync();
-    assert.strictEqual(resultado, 'PipocA');
+    assert.strictEqual(resultado, 'Pipoca');
   });
 
 });
