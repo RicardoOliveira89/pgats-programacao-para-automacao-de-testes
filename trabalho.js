@@ -1,6 +1,5 @@
 function geradorDeTagsDeIdentificacao (nome) {
-  let nomeTag = nome.toUpperCase()        
-  return nomeTag
+  return nome.toUpperCase()        
 }
 
 function verificarSePodeSerAdotado(numero, porte) {   
@@ -36,8 +35,15 @@ function decidirTipoDeAtividadePorPorte(porte) {
 }
 
 async function buscarDadoAsync() {
-  let exemploNome = 'Pipoca'
-  return exemploNome
+  const nomesDog = ['Logan', 'Thor', 'Pantera', 'Pipoca']
+  let nomeExemplo = ''
+  for (let i = 0; i < nomesDog.length; i++) {
+    // O nome exemplo está chumbado pois no arquivo trabalho-final.js não é informado nenhum parâmetro para a função, apenas o retorno desejado: 'Pipoca'
+    if (nomesDog[i] == 'Pipoca') { 
+      nomeExemplo = nomesDog[i]
+    } 
+  }
+return nomeExemplo
 }
 
 export {
