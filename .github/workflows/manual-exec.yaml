@@ -18,9 +18,7 @@ jobs:
       
       - name: Instalando Mocha
         run: npm install --save-dev mocha
-
-      - name: Acessando pasta testes
-        run: cd testes
-
+        
       - name: Executando Testes 
         run: npx mocha trabalho-final.js
+        working-directory: testes
